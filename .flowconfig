@@ -1,0 +1,9 @@
+[ignore]
+<PROJECT_ROOT>/vendor/.*
+
+[include]
+
+[libs]
+
+[options]
+

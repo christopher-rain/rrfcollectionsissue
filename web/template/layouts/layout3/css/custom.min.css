@@ -1,0 +1,79 @@
+/* here you can put your own css to customize and override the theme */
+
+.form-group .required {
+    color: #333;
+    font-size: 14px;
+}
+
+.required::after {
+    content: ' *';
+    color: #e02222;
+}
+
+.control-label {
+    text-transform: capitalize;
+}
+
+.table .align-right {
+    text-align: right;
+}
+
+.profile-usermenu {
+    margin-top: 0px;
+}
+
+.pac-container {
+    z-index: 10500;
+}
+
+/* I think the important is because the other styles are rendered in <style> */
+
+.react-datepicker {
+    font-size: 1.2rem !important;
+}
+
+.react-datepicker__current-month {
+    font-size: 1.3rem !important;
+    line-height: 2.2rem !important;
+}
+
+.react-datepicker__header {
+    padding-top: 6px !important;
+}
+
+.react-datepicker__navigation {
+    line-height: 2.0rem !important;
+    border: 0.6rem solid transparent !important;
+}
+
+.react-datepicker__navigation--previous {
+    border-right-color: #ccc !important;
+}
+
+.react-datepicker__navigation--next {
+    border-left-color: #ccc !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+    margin: 0.6rem !important;
+}
+
+.react-datepicker__input-container {
+    width: 100%;
+
+    display: table !important;
+}
+
+.react-datepicker__input-container input {
+    border-bottom-right-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+    width: 103px !important;
+    height: 33px !important;
+}
+
+.form-inline {
+    .react-datepicker__input-container {
+        width: auto !important;
+        display: inline !important;
+    }
+}
