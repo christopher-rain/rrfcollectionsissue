@@ -8,7 +8,7 @@ const Form = props => {
 
     const formGroups = [
         {
-            label: "Passengers",
+            label: "Passengers 1",
             controls: [
                 {
                     placeholder: "Number of Passengers",
